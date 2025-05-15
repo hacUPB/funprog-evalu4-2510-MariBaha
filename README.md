@@ -1,5 +1,4 @@
 # Unidad No. 
-Ingresa a continuación tu información.
 ## Información del estudiante  
 Nombre del estudiante: María Antonia Bahamón Acevedo  
 Id.:000579677
