@@ -1,9 +1,8 @@
 # Unidad No. 
 Ingresa a continuación tu información.
 ## Información del estudiante  
-Nombre del estudiante:  
-Id.:
+Nombre del estudiante: María Antonia Bahamón Acevedo  
+Id.:000579677
 ---
 ## Descripción del contenido del repositorio  
-No olvides realizar una descripción de lo que se encontrará dentro de tu repositorio.
-
+El repositorio se compone de manejo de c con las activdades establecidas en la unidad 4.
