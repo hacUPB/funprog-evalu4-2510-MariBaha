@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int opcion;
+    int variante;
     do {
         // Mostrar menú
         printf("\n=== Menú Principal ===\n");
@@ -10,32 +10,32 @@ int main() {
         printf("4. Busca una palabra específica\n");
         printf("5. Guarda resultados en un archivo\n");
         printf("6. Salir\n");
-        printf("Selecciona una opción: ");
+        printf("Selecciona una variante: ");
         scanf("%d", &opcion);
-        // Procesar opción
-        switch (opcion) {
+        // Procesar variante
+        switch (variante) {
             case 1:
-                printf("Opción 1 seleccionada: Calcular total de líneas\n");
+                printf("variante 1 seleccionada: Calcular total de líneas\n");
                 break;
             case 2:
-                printf("Opción 2 seleccionada: Calcular total de palabras\n");
+                printf("variante 2 seleccionada: Calcular total de palabras\n");
                 break;
             case 3:
-                printf("Opción 3 seleccionada: Calcular total de caracteres\n");
+                printf("variante 3 seleccionada: Calcular total de caracteres\n");
                 break;
             case 4:
-                printf("Opción 4 seleccionada: Buscar una palabra específica\n");
+                printf("variante 4 seleccionada: Buscar una palabra específica\n");
                 break;
             case 5:
-                printf("Opción 5 seleccionada: Guardar resultados\n");
+                printf("variante 5 seleccionada: Guardar resultados\n");
                 break;
             case 6:
                 printf("Saliendo del programa...\n");
                 break;
             default:
-                printf("Opción inválida. Intente nuevamente.\n");
+                printf("variante no valida. Intente nuevamente.\n");
         }
-    } while (opcion != 6);
+    } while (variante != 6);
     return 0;
 }
  
