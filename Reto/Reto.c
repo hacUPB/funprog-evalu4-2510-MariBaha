@@ -11,7 +11,7 @@ int main() {
         printf("5. Guarda resultados en un archivo\n");
         printf("6. Salir\n");
         printf("Selecciona una variante: ");
-        scanf("%d", &opcion);
+        scanf("%d", &variante);
         // Procesar variante
         switch (variante) {
             case 1:
@@ -33,7 +33,7 @@ int main() {
                 printf("Saliendo del programa...\n");
                 break;
             default:
-                printf("variante no valida. Intente nuevamente.\n");
+                printf("variante no valida. Vuelva a intentar.\n");
         }
     } while (variante != 6);
     return 0;
