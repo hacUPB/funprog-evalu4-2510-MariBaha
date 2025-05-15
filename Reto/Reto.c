@@ -33,7 +33,7 @@ int main() {
                 printf("Saliendo del programa...\n");
                 break;
             default:
-                printf("variante no valida. Vuelva a Gintentar.\n");
+                printf("variante no valida. Vuelva a intentar.\n");
         }
     } while (variante != 6);
     return 0;
