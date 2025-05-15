@@ -4,9 +4,9 @@ int main() {
     do {
         // Mostrar menú
         printf("\n=== Menú Principal ===\n");
-        printf("1. Calcular líneas\n");
-        printf("2. Calcular palabras\n");
-        printf("3. Calcular caracteres\n");
+        printf("1. Calcular total de líneas\n");
+        printf("2. Calcular total de palabras\n");
+        printf("3. Calcular total de caracteres\n");
         printf("4. Busca una palabra específica\n");
         printf("5. Guarda resultados en un archivo\n");
         printf("6. Salir\n");
@@ -15,13 +15,13 @@ int main() {
         // Procesar opción
         switch (opcion) {
             case 1:
-                printf("Opción 1 seleccionada: Contar líneas\n");
+                printf("Opción 1 seleccionada: Calcular total de líneas\n");
                 break;
             case 2:
-                printf("Opción 2 seleccionada: Contar palabras\n");
+                printf("Opción 2 seleccionada: Calcular total de palabras\n");
                 break;
             case 3:
-                printf("Opción 3 seleccionada: Contar caracteres\n");
+                printf("Opción 3 seleccionada: Calcular total de caracteres\n");
                 break;
             case 4:
                 printf("Opción 4 seleccionada: Buscar una palabra específica\n");
