@@ -1,16 +1,6 @@
 # Desarrollo del Menú 🗒️
 
-### Objetivo
-
-El objetivo era crear un menú que permita al usuario:
-
-1. seleccionar diferentes opciones.
-
-2. leer la opción que el usuario ingresa.
-
-3. Permitirle al usuario repetir los pasos anteriores hasta que decida aplicar la opcion "salir"
-
-### ¿Que fue lo que hice?
+## ¿Que fue lo que hice? 🤔
 
 1. Inicialice el programa con:
 
