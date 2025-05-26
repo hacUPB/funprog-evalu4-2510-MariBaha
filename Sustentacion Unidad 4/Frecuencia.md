@@ -2,16 +2,33 @@
 
 ## ¿Como lo hice? 🤔
 
+## Proposito general
+
+La frecuancia esta diseñada para leer un texto ingresado por el usuario desde la entrada estándar y contar la frecuencia de aparición de cada vocal (a, e, i, o, u) sin distinguir entre mayúsculas y minúsculas.
+
+El flujo del programa es: 
+
+✅Solicita al usuario que escriba un texto.
+
+✅Lee carácter por carácter usando getchar() hasta que se presione Ctrl+D o Ctrl+Z.
+
+✅Convierte cada carácter a minúscula para estandarizar el análisis.
+
+✅Verifica si es una vocal, y si lo es, incrementa el contador correspondiente.
+
+✅Al finalizar la lectura, imprime la frecuencia de cada vocal.
+
 ### Tabla de variables
 
 | Función | Variable | Tipo   | Rol     |
 | ------- | -------- | ------ | ------- |
-| main    | c      | char | Entrada |
-| main    | a      | int  | Salida  |
-| main    | e      | int  | Salida  |
-| main    | i      | int  | Salida  |
-| main    | o      | int  | Salida  |
-| main    | u      | int  | Salida  |
+| main  | c     | char | Entrada |
+| a     | int    | Salida |         |
+| e     | int    | Salida |         |
+| i     | int    | Salida |         |
+| o     | int    | Salida |         |
+| u     | int    | Salida |         |
+
 
 1. Inicialice con: 
 

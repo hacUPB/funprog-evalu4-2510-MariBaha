@@ -2,16 +2,35 @@
 
 ## ¿Como lo hice? 🤔
 
+## Proposito general
+
+Los resultados nos permite guardar información procesada en un archivo de texto, simula la escritura de estadísticas como el promedio, frecuencias de vocales y un texto modificado en un archivo el cual nombre es ingresado por el usuario.
+
+¿Cómo se conectan los módulos?
+
+🖊 El programa pide al usuario el nombre del archivo donde se guardarán los resultados.
+
+📂 Intenta abrir dicho archivo en modo escritura ("w"). Si falla, muestra un error y termina.
+
+📝 Si el archivo se abre correctamente:
+
+Se escriben estadísticas simuladas: promedio, frecuencia de una vocal y un texto modificado.
+
+Los datos se imprimen dentro del archivo con fprintf().
+
+✅ Una vez completada la escritura, el archivo se cierra correctamente con fclose().
+
+📢 El programa informa al usuario que los resultados han sido guardados exitosamente.
+
+
 ### Tabla de variables
-| Función | Variable              | Tipo              | Rol     |
-| ------- | --------------------- | ----------------- | ------- |
-| main    | nombre_archivo      | char[100]       | Entrada |
-| main    | archivo_salida      | FILE*           | Salida  |
-| main    | promedio            | double          | Entrada |
-| main    | frecuencia_a       | int             | Entrada |
-| main    | texto_modificado    | char[ ]          | Entrada |
-| main    | contenido del archivo | texto (formato) | Salida  |
-ㅤㅤ
+| Función            | Variable         | Tipo     | Rol     |
+| ------------------ | ---------------- | -------- | ------- |
+| main             | nombre_archivo | char[] | Entrada |
+| archivo_salida   | FILE*          | Interna  |         |
+| promedio         | double         | Entrada  |         |
+| frecuencia_a     | int            | Entrada  |         |
+| texto_modificado | char[]         | Entrada  |         |
 
 1. Comence el programa con: 
 

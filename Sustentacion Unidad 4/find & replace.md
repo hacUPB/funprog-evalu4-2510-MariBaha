@@ -2,22 +2,42 @@
 
 ## ¿Como lo hice? 🤔
 
+## Proposito general
+
+Esta seccion nos permite buscar una palabra dentro de un texto ingresado por el usuario y reemplazarla por otra palabra, para eso realiza un procesamiento del texto en memoria dinámica, calcula las posiciones de coincidencias y construye un nuevo texto con los reemplazos aplicados.
+
+¿Cómo se conectan los módulos?
+
+🖊 El usuario introduce el texto mediante getline() → Se guarda dinámicamente en texto.
+
+🧠 Se limpian los saltos de línea (\n) al final del texto y de las palabras ingresadas.
+
+🔍 Se calcula cuántas veces aparece la palabra a buscar en el texto usando strstr().
+
+🧮 Se calcula cuánto espacio ocupará el nuevo texto (por si las palabras tienen distinto tamaño).
+
+🧱 Se construye el nuevo texto:
+
+Se recorre el texto original carácter por carácter.
+
+Si se encuentra una coincidencia exacta de la palabra buscada, se copia la de reemplazo.
+
+Si no, se copia el carácter original.
+
+🧾 Se imprime el texto original y el reemplazado.
+
+🧼 Se libera la memoria dinámica usada.
+
 ### Tabla de variables
-| Función | Variable               | Tipo       | Rol                                         |
-| ------- | ---------------------- | ---------- | ------------------------------------------- |
-| main    | texto                | char*    | Entrada                                     |
-| main    | palabra_buscar       | char[50] | Entrada                                     |
-| main    | palabra_reemplazar   | char[50] | Entrada                                     |
-| main    | texto_reemplazado    | char*`    | Salida                                      |
-| main    | tamaño_texto         | size_t   | Auxiliar (control de tamaño para getline) |
-| main    | tamaño_reemplazado   | size_t   | Auxiliar (cálculo para malloc)            |
-| main    | indice_reemplazado   | size_t   | Auxiliar (índice de construcción)           |
-| main    | longitud_texto       | size_t   | Auxiliar                                    |
-| main    | longitud_buscar      | size_t   | Auxiliar                                   |
-| main    | longitud_reemplazar  | size_t   | Auxiliar                                    |
-| main    | contador_ocurrencias | size_t   | Auxiliar                                    |
-| main    | posicion             | char*    | Auxiliar (puntero de búsqueda)              |
-ㅤ
+| Función              | Variable | Tipo    | Rol     |
+| -------------------- | -------- | ------- | ------- |
+| main`               | texto  | char* | Entrada |
+| palabra_buscar     | char[] | Entrada |         |
+| palabra_reemplazar | char[] | Entrada |         |
+| texto_reemplazado  | char*  | Salida  |         |
+| tamaño_reemplazado | size_t | Interna |         |
+| indice_reemplazado | size_t | Interna |         |
+
 
 1. Inicio el programa con:
 

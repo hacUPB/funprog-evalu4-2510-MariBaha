@@ -2,15 +2,21 @@
 
 ## ¿Como lo hice? 🤔
 
+## Proposito general
+
+ Las estadisticas estan diseñadas para analizar un texto ingresado por el usuario desde la entrada estándar (teclado) y contar estadísticas clave: número de caracteres, palabras, espacios y líneas.
+
+
 ### Tabla de variables
-| Función | Variable          | Tipo         | Rol                        |
-| ------- | ----------------- | ------------ | -------------------------- |
-| main    | texto           | char[1000] | Entrada                    |
-| main    | totalCaracteres | int        | Salida                     |
-| main    | totalPalabras   | int        | Salida                     |
-| main    | totalEspacios   | int        | Salida                     |
-| main    | totalLineas     | int        | Salida                     |
-| main    | enPalabra       | int        | Auxiliar (control interno) |
+| Función | Variable          | Tipo     | Rol     |
+| ------- | ----------------- | -------- | ------- |
+| main  | texto           | char[] | Entrada |
+| main  | totalCaracteres | int    | Salida  |
+| main  | totalPalabras   | int    | Salida  |
+| main  | totalEspacios  | int    | Salida  |
+| main  | totalLineas     | int    | Salida  |
+| main  | enPalabra       | int    | Interna |
+
 ㅤㅤ
 
 1. Inicialice el programa con:

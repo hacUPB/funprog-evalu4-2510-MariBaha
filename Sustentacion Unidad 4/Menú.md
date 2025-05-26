@@ -2,6 +2,19 @@
 
 ## ¿Que fue lo que hice? 🤔
 
+## Propósito general
+
+El menú está diseñado como una aplicación de consola interactiva que permite al usuario seleccionar una acción relacionada con el análisis y manejo de texto, su diseño se basa en un menú principal que ofrece varias funciones útiles en donde se imprime el correspondiente a cada opción como:
+
+✅Estadísticas básicas (líneas, palabras, caracteres).
+
+✅Encontrar frecuencia de vocales.
+
+✅Procesamiento de texto (búsqueda y reemplazo).
+
+✅Almacenamiento de resultados.
+
+
 ### Tabla de variables
 | Función | Variable             | Tipo              | Rol     |
 | ------- | -------------------- | ----------------- | ------- |
